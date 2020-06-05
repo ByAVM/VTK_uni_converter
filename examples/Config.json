@@ -1,0 +1,32 @@
+{
+  "input": "C:/Temporary/VTK/binData",
+  "output": "C:/Temporary/VTK/vtuData",
+  "grid": "unstructured_grid",
+  "converter": "surfer6_grd",
+  "header": [
+    {
+      "type": "double",
+      "ref": "N"
+    }
+  ],
+  "data": [
+    {
+      "type": "double",
+      "tuples": "N",
+      "components": 1,
+      "target": "point_x"
+    },
+    {
+      "type": "double",
+      "tuples": "N",
+      "components": 1,
+      "target": "point_y"
+    },
+    {
+      "type": "double",
+      "tuples": "N",
+      "components": 1,
+      "target": "point_z"
+    }
+  ]
+}
