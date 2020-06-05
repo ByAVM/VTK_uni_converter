@@ -50,5 +50,17 @@
         "tuples": "N",
         "components": 1,
         "target": "point_x"
+      },
+      {
+        "type": "double",
+        "tuples": "N",
+        "components": 1,
+        "target": "point_y"
+      },
+      {
+        "type": "double",
+        "tuples": "N",
+        "components": 1,
+        "target": "point_z"
       }
     ]
